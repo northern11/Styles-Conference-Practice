@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -47,12 +47,43 @@ table {
 	border-spacing: 0;
 }
 
+/*
+  ======================================================
+	Custom style
+	======================================================
+*/
+  body {
+		color: #888;
+		font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
 
+  h1, h2, h3, h4 {
+		color: #648880;
+	}
+
+	h1 {
+		font-size: 36px;
+		line-height: 44px;
+	}
+  h2 {
+		font-size: 24px;
+		line-height: 44px;
+	}
+	h3 {
+		font-size:21px;
+	}
+	h4 {
+		font-size:18px;
+	}
+
+	h5 {
+		color: #a9bdb9;
+		font-size: 14px;
+		font-weight: 400;
+	}
 /*
 	==================================================
-
 	Grid
-
 	===================================================
 */
 
@@ -63,18 +94,18 @@ table {
 	   -moz-box-sizing: border-box;
 		    box-sizing: border-box;
     }
- 
+
  .container,
  .grid {
 	 margin: 0 auto;
 	 width: 960px;
 	}
-	
+
  .container {
 	 padding-left: 30px;
 	 padding-right: 30px;
 	}
-	
+
 /*
 	====================================================
 	Typography
@@ -84,7 +115,7 @@ table {
 h1, h3, h4, h5, p {
 	margin-bottom: 22px;
    }
-   
+
 /*
 	=====================================================
 	Buttons
@@ -96,23 +127,23 @@ h1, h3, h4, h5, p {
 	  display: inline-block;
 	  margin:0;
   }
-  
+
   .btn-alt {
 	  border: 1px solid #dfe2e5;
 	  padding: 10px 30px;
   }
-  
+
  /*
 	=====================================================
 	Home
 	=====================================================
  */
- 
+
  .hero {
 	 padding: 22px 80px 66px 80px;
 	}
-	 
-	 
+
+
  /*
    =======================================================
    Clearfix
@@ -131,19 +162,19 @@ h1, h3, h4, h5, p {
 		clear: both;
 		*zoom: 1;
 	}
-	
+
   /*
    =======================================================
    Primary Header
    =======================================================
   */
-  
+
 	.logo {
 		border-top: 4px solid #648880;
 		padding: 40px 0 22px 0;
 		float: left;
 	}
-  
+
   /*
    =======================================================
    Primary Footer
@@ -153,38 +184,39 @@ h1, h3, h4, h5, p {
 		padding-bottom: 44px;
 		padding-top: 44px;
 	}
-	
+
 	.primary-footer small {
 		float: left;
 	}
-	
+
 	/*
 	=====================================================
 	Three-Column Reusable Layout
 	======================================================
 	*/
-	
+
 	.col-1-3 {
 		width: 33.33%;
 	}
 	.col-2-3 {
 		width: 66.66%;
 	}
-  
+
 	.col-1-3,
 	.col-2-3 {
 		display: inline-block;
 		vertical-align: top;
 	}
-	
+
 	.grid,
 	.col-1-3,
 	.col-2-3 {
 		padding-left: 15px;
 		padding-right: 15px;
 	}
-		
-		
+
+
+
 /*
 	======================================================
 	Floats Demo
@@ -201,25 +233,22 @@ h1, h3, h4, h5, p {
 		padding: 24px 15px;
 		text-align: center;
 	}
-	 
+
 	.test1 {
 		 margin: 0 1.5% 24px 1.5%;
 	 }
-	 
+
 	.test2 {
 	/*	clear: both; */
 		margin-bottom: 0;
 	}
-	 
+
 	section.test1 {
 		display: inline-block;
-		
+
 		width: 30%;
 	}
 	aside.test1 {
 		float: right;
 		width: 30%;
 	}
- 
- 
- 
