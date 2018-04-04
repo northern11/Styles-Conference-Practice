@@ -81,6 +81,28 @@ table {
 		font-size: 14px;
 		font-weight: 400;
 	}
+
+/* <strong>, <cite> and <em> were reset */
+  strong {
+		font-weight: 400;
+	}
+	cite, em {
+		font-style: italic;
+	}
+
+/*
+  =================================================
+	Links
+	=================================================
+*/
+
+  a:hover {
+		color: #a9b2b9;
+	}
+	a {
+		color: #648880;
+	}
+
 /*
 	==================================================
 	Grid
@@ -171,8 +193,10 @@ h1, h3, h4, h5, p {
 
 	.logo {
 		border-top: 4px solid #648880;
-		padding: 40px 0 22px 0;
 		float: left;
+		font-size:48px;
+		line-height: 44px;
+		padding: 40px 0 22px 0;
 	}
 
   /*
