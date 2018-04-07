@@ -224,6 +224,8 @@ h1, h3, h4, h5, p {
   .primary-nav {
 		font-size: 14px;
 		font-weight: 400px;
+		letter-spacing: .5px;
+		text-transform: uppercase;
 	}
 
   /*
