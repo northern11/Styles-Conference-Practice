@@ -101,9 +101,13 @@ table {
 	}
 	a {
 		color: #648880;
+		text-decoration: none;
 	}
 	.teaser a:hover h3 {
 		color: #a9b2b9;
+	}
+  p a {
+		border-bottom: 1px solid #dfe2e5;
 	}
 
 /*
