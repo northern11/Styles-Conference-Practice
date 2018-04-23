@@ -174,14 +174,23 @@ h1, h3, h4, h5, p {
 
   .btn {
 	  border-radius:5px;
+		color: #fff;
+		cursor: pointer;
 	  display: inline-block;
+		font-weight: 400;
+		letter-spacing: .5x;
 	  margin:0;
+		text-transform: uppercase;
   }
 
   .btn-alt {
-	  border: 1px solid #dfe2e5;
+	  border: 1px solid #fff;
 	  padding: 10px 30px;
   }
+	.btn-alt:hover {
+		background: #fff;
+		color: #648880;
+	}
 
  /*
 	=====================================================
