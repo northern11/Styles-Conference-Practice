@@ -130,7 +130,14 @@ table {
 	.primary-footer a:hover {
 		color: #648880;
 	}
-
+  .nav li {
+		display: inline-block;
+		margin: 0 10px;
+		vertical-align: top;
+	}
+	.nav li:last-child {
+		margin-right: 0;
+	}
 /*
 	==================================================
 	Grid
