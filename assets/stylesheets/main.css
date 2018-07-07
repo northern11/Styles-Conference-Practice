@@ -138,6 +138,12 @@ table {
 		max-width: 100%;
 	}
 
+  .speaker-info img {
+		border-radius: 50%;
+		height: 130px;
+		margin: -66px 0 22px 0;
+		vertical-align: top;
+	}
 /*
   ==================================================
 	Shared Navigation Styles
