@@ -157,6 +157,9 @@ table {
 	.venue-hotel {
 		margin-bottom: 22px;
 	}
+	.venue-map {
+		height: 264px;
+	}
 /*
   ==================================================
 	Shared Navigation Styles
