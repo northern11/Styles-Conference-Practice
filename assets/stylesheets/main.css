@@ -260,6 +260,16 @@ h1, h3, h4, h5, p {
 		color: #648880;
 	}
 
+	.btn-default {
+		border: 0;
+		background: #648880;
+		padding: 11px 30px;
+		font-size: 14px;
+	}
+	.btn-default:hover {
+		background: #77a198;
+	}
+
  /*
 	=====================================================
 	Home
