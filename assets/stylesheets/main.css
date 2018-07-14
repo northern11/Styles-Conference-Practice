@@ -513,6 +513,17 @@ h1, h3, h4, h5, p {
 		padding-left: 0;
 		padding-right: 0;
 	}
+
+	table a {
+		color: #888;
+	}
+	table h4 {
+		margin-bottom: 0;
+	}
+
+	.schedule-offset {
+		color: #a9b2b9;
+	}
 /*
 	======================================================
 	Floats Demo
